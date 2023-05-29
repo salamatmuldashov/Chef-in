@@ -4,7 +4,7 @@ Chef.in this is an exciting new website that brings together a rich culinary exp
 
 <div align="center">
 <h3 align="center">Chef.in</h3>
-  <a href="https://github.com/akidra4L/chef.in">
+  <a href="https://github.com/salamatmuldashov/Chef-in">
     <img src="assets/chef.in-logo.png" alt="Logo" width="100%">
   </a>
 </div>
@@ -25,7 +25,7 @@ Chef.in this is an exciting new website that brings together a rich culinary exp
 1. Clone the project
 
    ```sh
-   git clone https://github.com/akidra4L/chef.in.git
+   git clone https://github.com/salamatmuldashov/Chef-in
    ```
 
 2. Install the dependencies for Client

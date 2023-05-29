@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <h2 mat-dialog-title>{{ data.name }}</h2>
+  <div mat-dialog-content>
+    <div class="dialog-image">
+      <img [src]="data.image" alt="{{ data.name }}" />
+    </div>
+    <div class="dialog-details">
+      <p><strong>Description:</strong> {{ data.description }}</p>
+      <p><strong>Category:</strong> {{ data.category_title }}</p>
+      <p><strong>Steps:</strong></p>
+      <ol>
+        <li *ngFor="let step of data.steps.split('.')">{{ step }}</li>
+      </ol>
+    </div>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Close</button>
+    <button mat-button (click)="UpdateRecipe()">Update</button>
+    <button mat-button (click)="DeleteRecipe()">Delete</button>
+  </div>
+</div>
